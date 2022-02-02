@@ -8,3 +8,9 @@ The necessary data is being retrieved with AJAX calls from the MediaWiki API. Fo
 ------------------------
 
 Used technologies: HTML5, CSS, JavaScript, Vue.js 3, REST API
+
+-------------------------
+
+Additionally, i was tasked to customize the CSS of the enterprise Wiki itself to fit the employees' wishes.
+
+![Wiki Screenshot](https://user-images.githubusercontent.com/72218348/152185686-834e5b66-f849-457b-b7e9-2f1c2f082e33.PNG)
