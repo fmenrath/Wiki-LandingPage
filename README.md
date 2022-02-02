@@ -5,12 +5,11 @@ During my job as a technical administrator at Familienkasse i was tasked to desi
 The landing page includes a searchbar with interactive suggestions, as well as two blocks that list recently created and recently edited pages.
 The necessary data is being retrieved with AJAX calls from the MediaWiki API. For presentation and security purposes on Github, the linked app uses the API endpoints for the german Wikipedia instead.
 
-------------------------
-
 Used technologies: HTML5, CSS, JavaScript, Vue.js 3, REST API
 
 -------------------------
 
-Additionally, i was tasked to customize the CSS of the enterprise Wiki itself to fit the employees' wishes.
+Additionally, i was tasked to customize the CSS and JavaScript of the enterprise Wiki itself to fit the employees' wishes.
 
-![Wiki Screenshot](https://user-images.githubusercontent.com/72218348/152185686-834e5b66-f849-457b-b7e9-2f1c2f082e33.PNG)
+![FamkaScreenshot](https://user-images.githubusercontent.com/72218348/152186017-d81508df-1cdf-4784-b3ad-e39182e47062.png)
+
