@@ -1,24 +1,15 @@
-# famka
+During my job as a technical administrator at Familienkasse i was tasked to design a landing page for their new enterprise Wiki (based on MediaWiki).
 
-## Project setup
-```
-yarn install
-```
+![Familenkasse](https://user-images.githubusercontent.com/72218348/152183697-2dfb6392-0600-4fb1-8377-6dc743aabaf5.jpg)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+The landing page includes a searchbar with interactive suggestions, as well as two blocks that list recently created and recently edited pages.
+The necessary data is being retrieved with AJAX calls from the MediaWiki API. For presentation and security purposes on Github, the linked app uses the API endpoints for the german Wikipedia instead.
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Used technologies: HTML5, CSS, JavaScript, Vue.js 3, REST API
 
-### Lints and fixes files
-```
-yarn lint
-```
+-------------------------
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Additionally, i was tasked to customize the CSS and JavaScript of the enterprise Wiki itself to fit the employees' wishes.
+
+![FamkaScreenshot](https://user-images.githubusercontent.com/72218348/152186017-d81508df-1cdf-4784-b3ad-e39182e47062.png)
+
