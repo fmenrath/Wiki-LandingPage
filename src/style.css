@@ -23,7 +23,7 @@ body{
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    text-align: center;
-   background: #f6f6f6;
+   background: white;
 }
 
 h1{
@@ -34,13 +34,14 @@ h1{
 }
 
 h2{
-   font-weight: 300;
-   font-size: 1.4em;
+   font-weight: 400;
+   font-size: 1.2em;
    color: var(--black);
    font-family: 'Roboto';
    margin-bottom: 20px !important;
    position: relative;
    left: 10px;
+   top: 3px;
 }
 
 h3{
@@ -55,7 +56,7 @@ header{
    width: 100%;
    z-index: 1;
    position: relative;
-   background: #0a485d;
+   background: #f7f7f7;
 }
 
 .header-content{
@@ -72,7 +73,7 @@ nav a{
    margin-right: 30px;
    font-weight: 400;
    font-size: 1em;
-   color: white;
+   color: #333;
    font-family: Roboto;
 }
 
@@ -83,13 +84,12 @@ nav a{
 #user-icon{
    height: 20px;
    margin-right: 10px;
-   opacity: 0.9;
-   filter: invert(1);
+   opacity: 0.8;
 }
 
 #username{
    font-size: 1em;
-   color: white;
+   color: #333;
    font-weight: 400;
    font-family: Roboto;
    font-size: 1em;
@@ -106,7 +106,6 @@ main{
    grid-template-columns: 250px auto 250px;
    max-width: 1300px;
    background:white;
-   box-shadow: rgb(99 99 99 / 8%) 0px 2px 8px 0px;
 }
 
 .link-block{
@@ -114,6 +113,8 @@ main{
    border-radius: 4px;
    text-align: left;
    max-width: 250px;
+   padding: 15px;
+   background: #f7f7f7;
 }
 
 .article{
@@ -133,11 +134,13 @@ main{
 }
 
 .article-link:hover{
-   background: #f8f8f8;
+   background: #ffffff;
 }
 
 .article-name{
    color: #0a485d;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 .article-user{
@@ -145,6 +148,8 @@ main{
    color: #999;
    font-size: 0.9em;
    margin-top: 3px;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 #ba-logo{
